@@ -1,0 +1,127 @@
+/* Add CSS styles for your web site here and use them in index.html. */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6d9c5d;
+    color: white;
+}
+header{
+    background-color: #3b4736;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type:none;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+nav ul li a:hover{
+    background-color: #34ba87;
+    border-radius: 8px;
+}
+footer{
+    background-color: black;
+    padding-top: 20px;
+    text-align: right;
+    padding-bottom: 5px;
+}
+.imagecarosel{
+    display: inline-block;
+    width: 400px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgflex{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+}
+.imgflex h4{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.imgbox{
+    display: block;
+    align-items: center;
+    padding: 20px;
+    width: 300px;
+    background-color: #537a46;
+    position: relative;
+}
+.imgbox img{
+    object-fit: cover;
+    width: 250px;
+    height: 300px;
+}
+
+.textcenter{
+    background-color: grey;
+    width: 250px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+#imgcatch{
+    width: 250px;
+}
+
+#imgswap {
+    object-fit: cover;
+    width: 400px;
+    height: 500px;
+    border-style: groove;
+    border-width: 10px;
+    border-color: #3b4736;
+}
+#myBtn {
+    width: 175px;
+    height: 50px;
+    border-style: outset;
+    border-width: 8px;
+    border-color: grey;
+    background-color: tan;
+    margin: 0 auto;
+}
+.longimgbox{
+    display: block;
+    align-items: center;
+    padding: 20px;
+    width: 400px;
+    height: 550px;
+    background-color: #537a46;
+    position: relative;
+}
+.longimgbox img{
+    object-fit: cover;
+    width: 350px;
+    height: 200px;
+}
+.arrowBtns button{
+    background-color: #34ba87;
+    width: 100px;
+    height: 25px;
+    font-size: 20px;
+}
